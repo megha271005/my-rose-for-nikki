@@ -31,7 +31,7 @@ const SendRoseButton = () => {
               </>
             ) : (
               <>
-                <span>Send Rose to Nikki</span>
+                <span>Find love..</span>
                 <span className="text-3xl">🌹</span>
               </>
             )}
