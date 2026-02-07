@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import OpeningScreen from '@/components/OpeningScreen';
 import LoveLetter from '@/components/LoveLetter';
-import MemorySlider from '@/components/MemorySlider';
 import SendRoseButton from '@/components/SendRoseButton';
-import MemoryBox from '@/components/MemoryBox';
 import Footer from '@/components/Footer';
 import FallingPetals from '@/components/FallingPetals';
 import FloatingHearts from '@/components/FloatingHearts';
@@ -28,9 +26,7 @@ const Index = () => {
           </header>
 
           <LoveLetter />
-          <MemorySlider />
           <SendRoseButton />
-          <MemoryBox />
           <Footer />
         </main>
       )}
